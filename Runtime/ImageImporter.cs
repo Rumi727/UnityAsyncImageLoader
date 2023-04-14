@@ -12,8 +12,8 @@ using static Unity.Mathematics.math;
 
 public static partial class AsyncImageLoader {
   class ImageImporter : IDisposable {
-    static readonly int MaxTextureSize = SystemInfo.maxTextureSize;
-    static readonly int MaxMipmapLevel = (int)Mathf.Log(SystemInfo.maxTextureSize, 2f) + 1;
+    static readonly int MaxTextureSize = 16384;
+    static readonly int MaxMipmapLevel = (int)Mathf.Log(16384, 2f) + 1;
     static readonly ProfilerMarker ConstructorMarker = new ProfilerMarker("ImageImporter.Constructor");
     static readonly ProfilerMarker CreateNewTextureMarker = new ProfilerMarker("ImageImporter.CreateNewTexture");
     static readonly ProfilerMarker LoadIntoTextureMarker = new ProfilerMarker("ImageImporter.LoadIntoTexture");
