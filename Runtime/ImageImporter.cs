@@ -154,6 +154,10 @@ public static partial class AsyncImageLoader {
       switch (_imageType) {
         case FreeImage.Type.FIT_BITMAP:
           switch (_imageBitsPerPixel) {
+            case 1:
+            case 2:
+            case 4:
+            case 8:
             case 24:
               _textureFormat = TextureFormat.RGB24;
               _bytesPerPixel = 3;
