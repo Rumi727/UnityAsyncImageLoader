@@ -1,11 +1,8 @@
 ## [Unreleased]
 
 ## [0.1.3] - 2022-12-19
-### Enhancement
-- Add support for non-bitmap image type.
-
 ### Fixed
-- Fix accuracy loss when generating mipmap (#7).
+- Fix accuracy loss when generating mipmap (#7)
 
 ## [0.1.2] - 2022-02-17
 ### Fixed
