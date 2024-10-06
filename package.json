@@ -12,7 +12,7 @@
     "importer"
   ],
   "author": {
-    "name": "Rumi",
+    "name": "Rumi"
   },
   "description": "An asynchronous version of ImageConversion.LoadImage.",
   "dependencies": {
