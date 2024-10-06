@@ -1,7 +1,7 @@
 {
-  "name": "com.looooong.asyncimageloader_forked_by_teamdodoco",
+  "name": "com.looooong.asyncimageloader_forked_by_rumi",
   "version": "727.1.4",
-  "displayName": "Asynchronous Image Loader (Forked by TEAM Dodoco)",
+  "displayName": "Asynchronous Image Loader (Forked by Rumi)",
   "unity": "2019.1",
   "keywords": [
     "image",
@@ -12,8 +12,7 @@
     "importer"
   ],
   "author": {
-    "name": "Nguyễn Đức Long",
-    "email": "duclong120995@gmail.com"
+    "name": "Rumi",
   },
   "description": "An asynchronous version of ImageConversion.LoadImage.",
   "dependencies": {
